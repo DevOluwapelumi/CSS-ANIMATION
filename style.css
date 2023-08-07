@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html, body {
+    overflow-y: hidden;
+}
+
+.sky {
+    position: absolute;
+    width: 100vw;
+    height: 45vh;
+}
+
+.houses {
+    width: 100vw;
+    position: absolute;
+}
+
+.plane {
+    position: relative;
+    top: -80px;
+    animation: plane 2.5s linear infinite forwards;
+}
+
+@keyframes plane {
+    0% {transform: translate(1500px);}
+    100% {transform: translate(-400px);}
+}
+
+.chopper {
+    position: relative;
+    top: 50px;
+    animation: chopper 4.5s linear infinite forwards;
+}
+
+@keyframes chopper {
+    0% {transform: translate(1450px);}
+    100% {transform: translate(-550px);}
+}
+
+.road {
+    width: 100vw;
+    position: relative;
+    top: 95px;
+    height: 25vh;
+}
+
+.grassh {
+    width: 100vw;
+    position: relative;
+    top: 95px;
+    height: 1.5vh;
+    border: 1px solid rgb(88, 247, 88);
+    background-color: rgb(88, 247, 88);
+}
+
+.grass {
+    width: 100vw;
+    position: relative;
+    top: 95px;
+    height: 6vh;
+    border: 10px solid rgb(49, 48, 48);
+    background-color: rgb(49, 48, 48);
+    
+}
+
+.road2 {
+    width: 100vw;
+    position: relative;
+    height: 25vh;
+    top: 95px;
+}
+
+.bike1 {
+    position: relative;
+    top: -460px;
+    animation: bike1 4s linear infinite forwards;
+}
+
+@keyframes bike1 {
+    0% {transform: translate(1450px);}
+    100% {transform: translate(-550px);}
+}
+
+.truck {
+    position: relative;
+    top: -345px;
+    z-index: 10;
+    animation: truck 3s linear infinite forwards;
+}
+
+@keyframes truck {
+    0% {transform: translate(1450px);}
+    100% {transform: translate(-550px);}
+}
+
+.taxi {
+    position: relative;
+    top: -425px;
+    animation: taxi 4.5s linear infinite forwards;
+}
+
+@keyframes taxi {
+    0% {transform: translate(1450px);}
+    100% {transform: translate(-550px);}
+}
+
+.ped {
+    position: relative;
+    width: 150;
+    z-index: 10;
+    top: -570px;
+    animation: ped 15s linear infinite forwards;
+}
+
+@keyframes ped {
+    0% {transform: translate(-600px);}
+    100% {transform: translate(1200px);}
+}
+
+.ped2 {
+    position: relative;
+    width: 150;
+    top: -580px;
+    animation: ped2 18s linear infinite forwards;
+}
+
+@keyframes ped2 {
+    0% {transform: translate(1400px);}
+    100% {transform: translate(-800px);}
+}
+
+.bicycle {
+    position: relative;
+    width: 120;
+    z-index: 10;
+    top: -355px;
+    animation: bicycle 8.5s linear infinite forwards;
+}
+
+@keyframes bicycle {
+    0% {transform: translate(-700px);}
+    100% {transform: translate(1500px);}
+}
+
+.way {
+    position: relative;
+    top: -305px;
+    z-index: 10;
+    left: 350px;
+}
+
+.way2 {
+    position: relative;
+    top: -305px;
+    z-index: 10;
+    right: 850px;
+}
+
+.light {
+    position: relative;
+    width: 100;
+    z-index: 10;
+    top: -340px;
+    left: 120px;
+}
+
+.light2 {
+    position: relative;
+    width: 100;
+    z-index: 10;
+    top: -340px;
+    left: -290px;
+}
+
+.light3 {
+    position: relative;
+    width: 100;
+    z-index: 10;
+    top: -560px;
+    left: 830px;
+}
+
+.light4 {
+    position: relative;
+    width: 100;
+    z-index: 10;
+    top: -560px;
+    left: 400px;
+}
+
+.light5 {
+    position: relative;
+    width: 100;
+    z-index: 10;
+    top: -560px;
+    right: 60px;
+}
+
+.sports {
+    position: relative;
+    width: 200;
+    top: -455px;
+    animation: bicycle 2s linear infinite forwards;
+}
+
+.tax {
+    position: relative;
+    width: 200;
+    top: -335px;
+    animation: bicycle 3s linear infinite forwards;
+}
+
+.trucky {
+    position: relative;
+    width: 200;
+    top: -310px;
+    animation: trucky 6.5s linear infinite forwards;
+}
+
+@keyframes trucky {
+    0% {transform: translate(-950px);}
+    100% {transform: translate(1400px);}
+}
+
+.bird {
+    position: relative;
+    width: 200;
+    /* border: 2px solid firebrick; */
+    top: -1000px;
+}
+
+.bird2 {
+    position: relative;
+    width: 200;
+    /* border: 2px solid firebrick; */
+    top: -900px;
+    right: 800px;
+}
+
+.audio {
+    position: absolute;
+    z-index: 10;
+}
